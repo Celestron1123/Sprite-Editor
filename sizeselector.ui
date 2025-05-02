@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SizeSelector</class>
+ <widget class="QWidget" name="SizeSelector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>20</y>
+     <width>191</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Choose a sprite pixel size</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>120</y>
+     <width>256</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="button8">
+      <property name="text">
+       <string>8 x 8</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button16">
+      <property name="text">
+       <string>16 x 16</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button32">
+      <property name="text">
+       <string>32 x 32</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>169</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="button64">
+      <property name="text">
+       <string>64 x 64</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="button128">
+      <property name="text">
+       <string>128 x 128</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
